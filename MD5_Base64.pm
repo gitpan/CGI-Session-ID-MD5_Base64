@@ -1,13 +1,13 @@
 package CGI::Session::ID::MD5_Base64;
 
-# $Id: MD5_Base64.pm_rev 1.2 2003/12/11 13:43:33 root Exp root $
+# $Id: MD5_Base64.pm_rev 1.3 2003/12/11 16:32:43 root Exp root $
 
 use strict;
 use Digest::MD5;
 
 use vars qw( $VERSION );
 
-	$VERSION = '1.00';
+	$VERSION = '1.01';
 
 sub generate_id {
     my $self = shift;
